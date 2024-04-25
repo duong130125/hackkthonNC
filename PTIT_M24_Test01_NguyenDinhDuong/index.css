@@ -1,0 +1,65 @@
+body {
+    background-color: #071146;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    color: #c62d2d;
+}
+.header-form {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+.container input[type="radio"] {
+    display: none;
+}
+.container label {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ccc;
+    line-height: 60px;
+    text-align: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.container input[type="radio"]:checked + label {
+    background-color: #7e2d53;
+    color: white;
+}
+.item input{
+    margin-top: 50px;
+    width: 70%;
+    height: 50px;
+    padding: 10px;
+}
+.item button{
+    width: 100px;
+    height: 33px;
+    background-color: #7f8387;
+    border: none;
+    border-radius: 5px;
+}
+.edit-btn{
+    color: #c62d2d;
+    border: none;
+}
+.delete-btn{
+    color: #c62d2d;
+    border: none;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+

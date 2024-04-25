@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Coach</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <h1>Feedback Coach</h1>
+    <div class="header-form">
+        <div class="container">
+            <h2>Thầy dạy anh em có hay không</h2>
+            <div>
+                <input type="radio" id="rate-1" name="rating" value="1"><label for="rate-1">1</label>
+                <input type="radio" id="rate-2" name="rating" value="2"><label for="rate-2">2</label>
+                <input type="radio" id="rate-3" name="rating" value="3"><label for="rate-3">3</label>
+                <input type="radio" id="rate-4" name="rating" value="4"><label for="rate-4">4</label>
+                <input type="radio" id="rate-5" name="rating" value="5"><label for="rate-5">5</label>
+                <input type="radio" id="rate-6" name="rating" value="6"><label for="rate-6">6</label>
+                <input type="radio" id="rate-7" name="rating" value="7"><label for="rate-7">7</label>
+                <input type="radio" id="rate-8" name="rating" value="8"><label for="rate-8">8</label>
+                <input type="radio" id="rate-9" name="rating" value="9"><label for="rate-9">9</label>
+                <input type="radio" id="rate-10" name="rating" value="10"><label for="rate-10">10</label>
+            </div>
+        </div>
+        <div class="item" style="position: relative;">
+            <input type="text" id="feedbackInput" placeholder="Write a review">
+            <button id="submitButton" style="position: absolute;top: 70px;right: 250px">send</button>
+        </div>
+        <div class="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th style="width: 500px;"></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="feedbackList">
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
